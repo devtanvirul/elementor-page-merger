@@ -1,0 +1,7 @@
+# Scaffolding the tests create while they run.
+tests/fake-wp/
+
+# OS and editor leftovers.
+.DS_Store
+Thumbs.db
+*.swp

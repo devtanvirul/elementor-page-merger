@@ -1,0 +1,266 @@
+.epm-wrap h1 {
+	display: flex;
+	align-items: baseline;
+	gap: 10px;
+}
+
+.epm-version {
+	font-size: 13px;
+	font-weight: 400;
+	color: #646970;
+	background: #f0f0f1;
+	border: 1px solid #dcdcde;
+	border-radius: 3px;
+	padding: 1px 7px;
+}
+
+.epm-intro {
+	max-width: 760px;
+	color: #50575e;
+}
+
+/* The pickers that apply to every ticked row, kept visibly apart from the
+   table so they do not read as a row selector. */
+.epm-globals {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-left: 4px solid #2271b1;
+	padding: 12px 16px 16px;
+	margin: 20px 0;
+	max-width: 760px;
+}
+
+.epm-globals h2 {
+	margin: 0 0 4px;
+	font-size: 14px;
+}
+
+.epm-globals-note {
+	margin: 0 0 12px;
+	color: #50575e;
+}
+
+.epm-globals-fields {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+}
+
+.epm-globals-fields label {
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+	font-weight: 600;
+	min-width: 320px;
+	flex: 1;
+}
+
+.epm-globals-fields select {
+	max-width: 100%;
+}
+
+.epm-refs-toggle {
+	margin: 14px 0 0;
+	padding-top: 12px;
+	border-top: 1px solid #dcdcde;
+}
+
+.epm-refs-toggle label {
+	font-weight: 600;
+}
+
+.epm-refs-toggle .epm-sub {
+	display: block;
+	margin: 4px 0 0 24px;
+	max-width: 640px;
+}
+
+.epm-warning {
+	margin: 12px 0 0;
+	color: #8a6400;
+}
+
+.epm-detection {
+	margin: 14px 0 0;
+	padding-top: 12px;
+	border-top: 1px solid #dcdcde;
+}
+
+.epm-detection summary {
+	cursor: pointer;
+	color: #50575e;
+}
+
+.epm-detection-table {
+	margin-top: 10px;
+}
+
+.epm-detection-table td,
+.epm-detection-table th {
+	padding: 6px 10px;
+}
+
+.epm-filter {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	padding: 12px 16px;
+	margin: 0 0 16px;
+}
+
+.epm-filter-head h2 {
+	margin: 0 0 4px;
+	font-size: 14px;
+}
+
+.epm-filter-head p {
+	margin: 0 0 10px;
+}
+
+.epm-filter-types {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px 18px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #f0f0f1;
+}
+
+.epm-filter-types label {
+	white-space: nowrap;
+}
+
+.epm-filter-search {
+	display: flex;
+	align-items: center;
+	gap: 14px;
+	margin: 10px 0 0;
+}
+
+.epm-filter-search input {
+	margin-left: 6px;
+}
+
+.epm-actions {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin: 0 0 14px;
+}
+
+.epm-progress {
+	color: #50575e;
+}
+
+.epm-table .epm-select {
+	width: 100%;
+	max-width: 100%;
+}
+
+.epm-table .epm-col-type {
+	width: 130px;
+}
+
+.epm-table .epm-col-kind {
+	width: 110px;
+}
+
+.epm-table .epm-col-counts {
+	width: 120px;
+}
+
+.epm-table .epm-col-part {
+	width: 20%;
+}
+
+.epm-table .epm-col-result {
+	width: 190px;
+}
+
+.epm-sub,
+.epm-counts {
+	color: #646970;
+	font-size: 12px;
+}
+
+.epm-result {
+	font-size: 12px;
+	line-height: 1.6;
+}
+
+.epm-ok {
+	color: #007017;
+	font-weight: 600;
+}
+
+.epm-bad {
+	color: #b32d2e;
+	font-weight: 600;
+}
+
+.epm-busy {
+	color: #50575e;
+}
+
+.epm-inspect-row > td {
+	background: #f6f7f7;
+	box-shadow: inset 0 1px 0 #dcdcde, inset 0 -1px 0 #dcdcde;
+}
+
+.epm-inspect-panel h4 {
+	margin: 12px 0 4px;
+}
+
+.epm-inspect-panel p {
+	margin: 0 0 8px;
+}
+
+.epm-inspect-list {
+	margin: 0 0 8px 18px;
+	list-style: disc;
+	word-break: break-all;
+}
+
+.epm-inspect-table {
+	border-collapse: collapse;
+	margin-bottom: 8px;
+}
+
+.epm-inspect-table th,
+.epm-inspect-table td {
+	text-align: left;
+	padding: 4px 14px 4px 0;
+	border-bottom: 1px solid #dcdcde;
+	vertical-align: top;
+}
+
+.epm-failed summary {
+	cursor: pointer;
+}
+
+.epm-fail-reason {
+	margin: 6px 0 2px;
+}
+
+.epm-failed .epm-inspect-list {
+	margin: 0 0 8px 16px;
+	list-style: disc;
+	word-break: break-all;
+}
+
+.epm-widget {
+	margin-bottom: 4px;
+}
+
+.epm-widget summary {
+	cursor: pointer;
+}
+
+.epm-widget .epm-inspect-table {
+	margin: 6px 0 10px 18px;
+}
+
+.epm-credit {
+	margin-top: 24px;
+	padding-top: 12px;
+	border-top: 1px solid #dcdcde;
+	color: #646970;
+}
